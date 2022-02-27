@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 body {
     margin: 0%;
     padding: 0%;
@@ -18,11 +18,11 @@ body {
     color: #D9E0EE;
 
     /* font-family: 'your font' */
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fira Mono', monospace;
 
     /* Blur Background*/
     backdrop-filter: blur(3px);
-    
+
     /* Background Position */
     background-position: center;
 }
