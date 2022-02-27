@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
     margin: 0%;
     padding: 0%;
@@ -11,19 +12,19 @@ body {
     /* Customize */
 
     /* background-image: url("path/to/image") */
-    background-image: url("images/01.jpg");
+    background-image: url("images/1.png");
 
     /* color: your color */
-    color: #fff;
+    color: #D9E0EE;
 
     /* font-family: 'your font' */
-    font-family: 'fira code';
-}
+    font-family: 'Lato', sans-serif;
 
-.content {
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(3px); 
-    border-radius: 10px; 
+    /* Blur Background*/
+    backdrop-filter: blur(3px);
+    
+    /* Background Position */
+    background-position: center;
 }
 
 #greeting{
@@ -60,4 +61,13 @@ body {
 
 #bookmarks img {
     width: 3vw;
+}
+
+/* Card Layout */
+.content {
+    background: rgba( 0,0,0,0.7 ); /* rgba(0, 0, 0, 0.7); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 20px;
 }
